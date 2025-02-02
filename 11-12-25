@@ -1,0 +1,223 @@
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Periodic Table page</title>
+  <style>
+        table.ex1 {
+          empty-cells: hide;
+        }
+        
+        table.ex2 {
+          empty-cells: show;
+        }
+        li.b::marker {
+  color: red;
+}
+li.c::marker {
+  color: skyblue;
+}
+li.d::marker {
+  color: goldenrod;
+}
+li.e::marker {
+  color: gray;
+}
+li.e::marker {
+  color: olivedrab;
+}
+
+li.a::marker {
+  color: blueviolet;
+}
+li.f::marker {
+  color: orangered;
+}
+li.g::marker {
+  color: lightcoral;
+}
+li.h::marker {
+  color: lightseagreen;
+}
+li.i::marker {
+  color: lightsalmon;
+}
+ul.b {
+  list-style-type: square;
+}
+        </style>
+ </head>
+ <body>
+  <h1 align="center"><u>Periodic Table</u></h1>
+  <center>
+   <table width="600" cellpadding="8" class="ex1" border="3">
+    <tbody>
+     <tr>
+      <td bgcolor="red">H</td>
+      <td colspan="16"></td>
+      <td bgcolor="red">He</td>
+     </tr>
+     <tr>
+      <td bgcolor="blueviolet">Li</td>
+      <td bgcolor="blueviolet">Be</td>
+      <td colspan="10"></td>
+      <td bgcolor="blueviolet">B</td>
+      <td bgcolor="blueviolet">C</td>
+      <td bgcolor="blueviolet">N</td>
+      <td bgcolor="blueviolet">O</td>
+      <td bgcolor="blueviolet">F</td>
+      <td bgcolor="blueviolet">Ne</td>
+     </tr>
+     <tr>
+      <td bgcolor="skyblue">Na</td>
+      <td bgcolor="skyblue">Mg</td>
+      <td colspan="10"></td>
+      <td bgcolor="skyblue">Al</td>
+      <td bgcolor="skyblue">Si</td>
+      <td bgcolor="skyblue">P</td>
+      <td bgcolor="skyblue">S</td>
+      <td bgcolor="skyblue">Cl</td>
+      <td bgcolor="skyblue">Ar</td>
+     </tr>
+     <tr bgcolor="goldenrod">
+      <td>K</td>
+      <td>Ca</td>
+      <td>Sc</td>
+      <td>Ti</td>
+      <td>V</td>
+      <td>Cr</td>
+      <td>Mn</td>
+      <td>Fe</td>
+      <td>Co</td>
+      <td>Ni</td>
+      <td>Cu</td>
+      <td>Zn</td>
+      <td>Ga</td>
+      <td>Ge</td>
+      <td>Se</td>
+      <td>Kr</td>
+      <td>Br</td>
+      <td>Me</td>
+     </tr>
+     <tr bgcolor="gray">
+      <td>Rb</td>
+      <td>Sr</td>
+      <td>Y</td>
+      <td>Zr</td>
+      <td>Nb</td>
+      <td>Mo</td>
+      <td>Tc</td>
+      <td>Ru</td>
+      <td>Rh</td>
+      <td>Pg</td>
+      <td>Ag</td>
+      <td>Sd</td>
+      <td>In</td>
+      <td>Sb</td>
+      <td>Te</td>
+      <td>I</td>
+      <td>Xe</td>
+      <td>Pd</td>
+     </tr>
+     <tr bgcolor="olivedrab">
+      <td>Cs</td>
+      <td>Ba</td>
+      <td>La</td>
+      <td>Hf</td>
+      <td>Ta</td>
+      <td>W</td>
+      <td>Le</td>
+      <td>Os</td>
+      <td>Tr</td>
+      <td>Pt</td>
+      <td>Au</td>
+      <td>Hg</td>
+      <td>Ti</td>
+      <td>Pb</td>
+      <td>Bi</td>
+      <td>Po</td>
+      <td>At</td>
+      <td>Rn</td>
+     </tr>
+     <tr bgcolor="orangered">
+      <td>Fr</td>
+      <td>Ra</td>
+      <td>Ac</td>
+      <td>Rb</td>
+      <td>Tb</td>
+      <td>Ui</td>
+      <td>Lp</td>
+      <td>Sf</td>
+      <td>Sg</td>
+      <td>Bh</td>
+      <td>Hs</td>
+      <td>Mt</td>
+      <td>Rg</td>
+      <td>Dg</td>
+      <td>Mc</td>
+      <td>Lv</td>
+      <td>Ts</td>
+      <td>Og</td>
+     </tr>
+     <tr>
+      <td colspan="18"></td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td bgcolor="lightcoral">Ce</td>
+      <td bgcolor="lightcoral">Pr</td>
+      <td bgcolor="lightcoral">Nd</td>
+      <td bgcolor="lightcoral">Pm</td>
+      <td bgcolor="lightcoral">Sm</td>
+      <td bgcolor="lightcoral">Cd</td>
+      <td bgcolor="lightcoral">Eu</td>
+      <td bgcolor="lightcoral">Gd</td>
+      <td bgcolor="lightcoral">Tb</td>
+      <td bgcolor="lightcoral">Dy</td>
+      <td bgcolor="lightcoral">Ar</td>
+      <td bgcolor="lightcoral">Tm</td>
+      <td bgcolor="lightcoral">Yb</td>
+      <td bgcolor="lightcoral">Lo</td>
+      <td></td>
+     </tr>
+     <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td bgcolor="lightseagreen">Th</td>
+      <td bgcolor="lightseagreen">Pa</td>
+      <td bgcolor="lightseagreen">U</td>
+      <td bgcolor="lightseagreen">Np</td>
+      <td bgcolor="lightseagreen">Pu</td>
+      <td bgcolor="lightseagreen">Am</td>
+      <td bgcolor="lightseagreen">Sm</td>
+      <td bgcolor="lightseagreen">Ak</td>
+      <td bgcolor="lightseagreen">Cf</td>
+      <td bgcolor="lightseagreen">Es</td>
+      <td bgcolor="lightseagreen">Am</td>
+      <td bgcolor="lightseagreen">Fm</td>
+      <td bgcolor="lightseagreen">No</td>
+      <td bgcolor="lightseagreen">Lr</td>
+      <td></td>
+     </tr>
+    </tbody>
+   </table>
+  </center>
+  <hr>
+  <ul class="b">
+   <li class="b">Alkali Elements</li>
+   <li class="a">Alkaline Elements</li>
+   <li class="c">Transition Elements</li>
+   <li class="d">Metal Elements</li>
+   <li class="e">Non-Metal Elements</li>
+   <li class="f">Lathinoide Elements</li>
+   <li class="g">Actinide Elements</li>
+   <li class="h">Noble Elements</li>
+   <li class="i">Metalloid Elements</li>
+  </ul>
+ </body>
+  </html>
